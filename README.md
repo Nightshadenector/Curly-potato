@@ -100,7 +100,6 @@
             border-radius: 15px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.08);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-            cursor: pointer;
         }
 
         .memory-card:hover {
@@ -113,6 +112,12 @@
             border-radius: 10px;
             object-fit: cover;
             margin-bottom: 10px;
+        }
+
+        .memory-card audio {
+            width: 100%;
+            margin: 10px 0;
+            border-radius: 8px;
         }
 
         .memory-card p {
@@ -235,37 +240,63 @@
         </header>
 
         <section>
-            <h2 class="section-title">Our Top 6 Favorite Memories 💕</h2>
+            <h2 class="section-title">Our Favorite Memories 💕</h2>
             <div class="memories-grid">
                 <!-- Memory 1 -->
                 <div class="memory-card">
-                    <img src="image1.png" alt="Memory 1">
+                    <img src="IMG_4646.jpeg" alt="Memory 1">
                     <p>1. "I missed you too baby" — Reunited in VC 🎧</p>
                 </div>
+
                 <!-- Memory 2 -->
                 <div class="memory-card">
-                    <img src="image2.png" alt="Memory 2">
+                    <img src="IMG_4647.jpeg" alt="Memory 2">
+                    <audio controls>
+                        <source src="voice-message%202.ogg" type="audio/ogg">
+                    </audio>
                     <p>2. "Why is my phone always at 4%" 📱💔</p>
                 </div>
+
                 <!-- Memory 3 -->
                 <div class="memory-card">
-                    <img src="image3.png" alt="Memory 3">
+                    <img src="IMG_4644.jpeg" alt="Memory 3">
+                    <audio controls>
+                        <source src="voice-message%203.ogg" type="audio/ogg">
+                    </audio>
                     <p>3. "I love you too mwaaaahhhhh" 😘</p>
                 </div>
+
                 <!-- Memory 4 -->
                 <div class="memory-card">
-                    <img src="image4.png" alt="Memory 4">
+                    <img src="IMG_4648.jpeg" alt="Memory 4">
+                    <audio controls>
+                        <source src="voice-message%204.ogg" type="audio/ogg">
+                    </audio>
                     <p>4. "You are my Walmart Miku :)" 💙</p>
                 </div>
+
                 <!-- Memory 5 -->
                 <div class="memory-card">
-                    <img src="image5.png" alt="Memory 5">
+                    <img src="IMG_4649.jpeg" alt="Memory 5">
                     <p>5. "Lobster spotted, time to eat >:)" 🦞❤️</p>
                 </div>
+
                 <!-- Memory 6 -->
                 <div class="memory-card">
-                    <img src="image6.png" alt="Memory 6">
+                    <img src="IMG_4650.jpeg" alt="Memory 6">
                     <p>6. 7-Hour Calls & Dreaming of Us 🌙✨</p>
+                </div>
+
+                <!-- Memory 7 -->
+                <div class="memory-card">
+                    <img src="IMG_4651.jpeg" alt="Memory 7">
+                    <p>7. Special Moments Together 💖</p>
+                </div>
+
+                <!-- Memory 8 -->
+                <div class="memory-card">
+                    <img src="IMG_4652.jpeg" alt="Memory 8">
+                    <p>8. Forever & Always 🥰</p>
                 </div>
             </div>
 
@@ -373,4 +404,3 @@
     </script>
 </body>
 </html>
-
